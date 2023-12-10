@@ -267,7 +267,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                                         </a>
                                                     </div>
                                                 </div>
-                                            </div><!--/.cbp-item -->
+                                            </div><!--/.cbp-item --->
 
                                             <div class="cbp-item">
                                                 <div class="project-item">
