@@ -67,7 +67,7 @@
             <div class="wrap-inner">          
                 <div id="site-logo" class="clearfix">
                     <div id="site-logo-inner">
-                        <a href="home-slider-full-screen.html" title="Construction" rel="home" class="main-logo">
+                        <a href="index.php" title="Construction" rel="home" class="main-logo">
                             <img src="assets/img/logo-light.png" alt="Construction" data-retina="assets/img/logo-light@2x.png" data-width="200" data-height="30">
                         </a>
                     </div>
@@ -77,28 +77,30 @@
 
                 <nav id="main-nav" class="main-nav">
                     <ul class="menu">
-                        <li class="menu-item"><a href="blog.html">Home</a></li>
-                        <li class="menu-item menu-item-has-children"><a href="#">ABOUT US</a>
+                        <li class="menu-item"><a href="index.php">Home</a></li>
+                        <li class="menu-item menu-item-has-children"><a href="about.html">ABOUT US</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="page-about.html">CEO Statement</a></li>
-                                <li class="menu-item"><a href="page-about-2.html">Corporate Profile</a></li>
-                                <li class="menu-item"><a href="page-services.html">Management Team</a></li>
-                                <li class="menu-item"><a href="page-services-2.html">Corporate Mission Statement</a></li>
-                                <li class="menu-item"><a href="page-service-detail.html">Organization Chart</a></li>
+                           
+                            <li class="menu-item"><a href="#"> OUR HISTORY </a></li>
+                                <li class="menu-item"><a href="#">CEO Statement</a></li>
+                                <li class="menu-item"><a href="#">Corporate Profile</a></li>
+                                <li class="menu-item"><a href="#">Management Team</a></li>
+                                <li class="menu-item"><a href="#">Corporate Mission Statement</a></li>
+                                <li class="menu-item"><a href="#">Organization Chart</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-has-children"><a href="#">Services</a>
+                        <li class="menu-item menu-item-has-children"><a href="services.html">Services</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="icons.html">Master Plan  &  3D Walkthrough</a></li>
-                                <li class="menu-item"><a href="buttons.html">Architectural Design</a></li>
-                                <li class="menu-item"><a href="toggles.html">Interior Design/Build</a></li>
-                                <li class="menu-item"><a href="typography.html">Renovation Design/Build</a></li>
-                                <li class="menu-item"><a href="galleries.html">Project Management</a></li>
-                                <li class="menu-item"><a href="iconboxs.html">Engineering Structural & MEP</a></li>
+                                <li class="menu-item"><a href="#">Master Plan  &  3D Walkthrough</a></li>
+                                <li class="menu-item"><a href="#">Architectural Design</a></li>
+                                <li class="menu-item"><a href="#">Interior Design/Build</a></li>
+                                <li class="menu-item"><a href="#">Renovation Design/Build</a></li>
+                                <li class="menu-item"><a href="#">Project Management</a></li>
+                                <li class="menu-item"><a href="#">Engineering Structural & MEP</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item"><a href="page-contact.html">Projects</a></li>
-                        <li class="menu-item"><a href="page-contact.html">Contact</a></li>
+                        <li class="menu-item"><a href="projects.html">Projects</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav><!-- /#main-nav -->
 
@@ -142,7 +144,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                     <div class="wprt-content-box style-1">
                                         <div class="wprt-icon-box icon-effect-2 icon-left">
                                             <div class="icon-wrap">
-                                                <span class="dd-icon icon-derrick-with-box-1"></span>
+                                            <img width="50" height="50" src="assets/icon/icons8-architect-100.png" alt="architect"/>
                                             </div>
                                             <div class="content-wrap">
                                                 <h3 class="dd-title text-white font-size-19"><a href="#">Architecture & Engineering </a></h3>
@@ -158,7 +160,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                     <div class="wprt-content-box style-1">
                                         <div class="wprt-icon-box icon-effect-2 icon-left">
                                             <div class="icon-wrap">
-                                                <span class="dd-icon icon-garden-fence"></span>
+                                            <img width="50" src="assets/icon/icons8-investor-64.png" alt="architect"/>
                                             </div>
                                             <div class="content-wrap">
                                                 <h3 class="dd-title text-white font-size-19"><a href="#">Construction Fund & Investment</a></h3>
@@ -174,7 +176,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                     <div class="wprt-content-box style-1">
                                         <div class="wprt-icon-box icon-effect-2 icon-left">
                                             <div class="icon-wrap">
-                                                <span class="dd-icon icon-crane"></span>
+                                            <img width="50" src="assets/icon/icons8-house-plan-64.png" alt="architect"/>
                                             </div>
                                             <div class="content-wrap">
                                                 <h3 class="dd-title text-white font-size-19"><a href="#">Buy & Sell <br> House Plan
@@ -232,9 +234,9 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                 </div>
                             </div><!-- /#project-filter -->
 
-                            <div id="projects" class="cbp">
+                            <div id="projects" class="cbp home-feature">
                                 <div class="cbp-item architecture interior workspace">
-                                    <div class="project-item">
+                                    <div class="project-item ">
                                         <div class="inner">
                                             <div class="grid">
                                             <figure class="effect-sadie">
@@ -432,7 +434,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                         <div class="content-wrap">
                                             <h3 class="dd-title font-size-18"><a href="#">Master Plan  &  3D Walkthrough</a></h3>
                                             <p>Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</p>
-                                            <div class="dd-link"><a href="#">READ MORE</a></div>
+                                            
                                         </div>
                                     </div>
                                     
@@ -445,7 +447,8 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                         <div class="content-wrap">
                                             <h3 class="dd-title font-size-18"><a href="#">Architectural Design</a></h3>
                                             <p>Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</p>
-                                            <div class="dd-link"><a href="#">READ MORE</a></div>
+                                            
+                                            
                                         </div>
                                     </div>
                                     
@@ -459,7 +462,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                         <div class="content-wrap">
                                             <h3 class="dd-title font-size-18"><a href="#">Interior Design/Build</a></h3>
                                             <p>Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</p>
-                                            <div class="dd-link"><a href="#">READ MORE</a></div>
+                                          
                                         </div>
                                     </div>
 
@@ -475,7 +478,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                         <div class="content-wrap">
                                             <h3 class="dd-title font-size-18"><a href="#">Renovation Design/Build</a></h3>
                                             <p>Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</p>
-                                            <div class="dd-link"><a href="#">READ MORE</a></div>
+                                           
                                         </div>
                                     </div>
 
@@ -488,7 +491,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                         <div class="content-wrap">
                                             <h3 class="dd-title font-size-18"><a href="#">Project Management</a></h3>
                                             <p>Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</p>
-                                            <div class="dd-link"><a href="#">READ MORE</a></div>
+                                            
                                         </div>
                                     </div>
 
@@ -501,7 +504,7 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
                                         <div class="content-wrap">
                                             <h3 class="dd-title font-size-18"><a href="#">Engineering Structural & MEP</a></h3>
                                             <p>Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.</p>
-                                            <div class="dd-link"><a href="#">READ MORE</a></div>
+                                          
                                         </div>
                                     </div>
 
@@ -704,15 +707,13 @@ Architectural solutions, custom-fit for your <br> <span class="text-accent-color
         <div class="bottom-bar-inner-wrap">
         
             <div class="bottom-bar-content">
-                <div id="copyright">CONSTRUCTION TEMPLATE &copy; DESIGN BY BLOGWP.
+                <div id="copyright">V.BUILDCC DESIGN & CONSTRUCTION Co., LTD.
                 </div><!-- /#copyright -->
             </div><!-- /.bottom-bar-content -->
 
             <div class="bottom-bar-menu">
                 <ul class="bottom-nav">
-                    <li><a href="#/">HISTORY</a></li>
-                    <li><a href="#/">FAQ</a></li>
-                    <li><a href="#/">EVENTS</a></li>
+                    <li><a href="#/">Term and Policy</a></li>   
                 </ul>       
             </div><!-- /.bottom-bar-menu -->
         </div>

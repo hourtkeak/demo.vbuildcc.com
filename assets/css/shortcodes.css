@@ -30,7 +30,7 @@
 }
 
 .wprt-section.promotion-2 {
-    background-image: url(../img/bg-section-3.jpg);
+    background-image: url(../img/slider/10.jpg);
     background-position: center center;
 }
 
@@ -76,7 +76,8 @@
 -------------------------------------------------------------- */
 .wprt-image-box {
     background-color: #fff;
-    padding: 30px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .wprt-image-box.left .image-wrap { 
@@ -497,6 +498,11 @@
 .wprt-icon-box.icon-left.grey-background .dd-icon { background-color: #f8f8f8; color: #8AC43F; }
 .wprt-icon-box.icon-left.grey-background:hover .dd-icon { background-color: #8AC43F; color: #fff; border-color: #8AC43F; }
 
+.wprt-icon-box.icon-left.grey-background .dd-icon-mission { background-color: #f8f8f8; color: #8AC43F; padding: 5px 10px 10px 10px;}
+.wprt-icon-box.icon-left.grey-background:hover .dd-icon-mission { background-color: #eaeaea; color: #fff; border-color: #8AC43F; }
+.wprt-icon-box.icon-left.grey-background .dd-icon-mission img{
+    width: 50px;
+}
 .wprt-icon-box.icon-left.grey-background .dd-icon {
     display: inline-block;
     width: 70px;
@@ -508,6 +514,7 @@
 
 .wprt-icon-box.icon-left.grey-background .icon-wrap { font-size: 38px; margin-bottom: 0; }
 .wprt-icon-box.icon-left.grey-background .content-wrap { padding-left: 100px; }
+
 
 /* Icon Box - Right
 -------------------------------------------------------------- */
@@ -1456,6 +1463,17 @@
     width: 100%;
     text-align: center;
     cursor: pointer;
+}
+
+/* Project item */
+.home-feature .project-item figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0px;
 }
 
 .project-item figure img {
